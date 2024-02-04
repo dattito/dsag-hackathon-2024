@@ -1,0 +1,16 @@
+.analytics {
+    color: var(--bs-primary);
+}
+
+.change {
+    right: 18px;
+    position: absolute;
+    top: 5px;
+}
+
+.changeSelect {
+    right: 18px;
+    position: absolute;
+    top: 5px;
+    width: 250px !important;
+}

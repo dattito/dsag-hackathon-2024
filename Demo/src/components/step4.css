@@ -1,0 +1,15 @@
+.number_title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.number_number {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.number_unit {
+    font-size: 12px;
+}

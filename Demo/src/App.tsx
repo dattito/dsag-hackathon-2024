@@ -1,28 +1,29 @@
-// src/App.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import ArticleHeader from './components/Product';
-import CO2Score from './components/CO2Score';
-import DeliveryProcess from './components/DeliveryProcess';
+import Header from './components/header';
+import Step1 from './components/Step1';
+import Step2 from './components/Step2';
+import Step3 from './components/Step3';
+import Step4 from './components/Step4';
+import Step5 from './components/Step5';
 
 const App: React.FC = () => {
-  // Example data
-  const articleTitle = 'Eco-Friendly Backpack';
-  const articleImageUrl = 'path/to/your/image.jpg';
-  const co2Score = 3.5;
-  const deliverySteps = [
-    { step: 'Manufacturing', co2Value: 2.0 },
-    { step: 'Transportation', co2Value: 1.5 },
-    // Add more steps as needed
-  ];
+  const [currentStep, setCurrentStep] = useState(1);
+
+  const increaseStep = () => {
+    setCurrentStep((prevStep) => prevStep + 1);
+  };
 
   return (
     <div className="App">
-      <ArticleHeader title={articleTitle} imageUrl={articleImageUrl} />
-      <CO2Score score={co2Score} />
-      <DeliveryProcess steps={deliverySteps} />
+      <Header currentState={currentStep} totalStates={5} onNextStep={increaseStep} />
+      {currentStep === 1 && <Step1 />}
+      {currentStep === 2 && <Step2 />}
+      {currentStep === 3 && <Step3 onNextStep={increaseStep} />}
+      {currentStep === 4 && <Step4 />}
+      {currentStep === 5 && <Step5 />}
     </div>
   );
-}
+};
 
 export default App;
