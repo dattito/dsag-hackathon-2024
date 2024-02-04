@@ -14,7 +14,7 @@ function App() {
           <div className="flex flex-col items-center lg:items-start lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-2 p-1 w-full">
             <Card title="Nachhaltigskeitsscore" className="h-[19.5rem]">
               <div className="flex flex-col items-center">
-                <Score score={94} maxScore={100} />
+                <Score score={84} maxScore={100} />
               </div>
             </Card>
             <Card
@@ -42,31 +42,35 @@ function App() {
                 <tr>
                   <td className="pr-2">
                     <div className="flex items-center">
-                      <span className="material-symbols-outlined">airwave</span>
-                      Ausgeschiedene Treibhausgase
+                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
+                        airwave
+                      </span>
+                      Treibhausgase
                     </div>
                   </td>
-                  <td>0.2 Tonnen</td>
+                  <td>0,2kg</td>
                 </tr>
                 <tr>
                   <td>
                     <div className="flex items-center">
-                      <span className="material-symbols-outlined">co2</span>
+                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
+                        co2
+                      </span>
                       CO₂-Äquivalent
                     </div>
                   </td>
-                  <td>0.2 Kilogramm</td>
+                  <td>0,2kg</td>
                 </tr>
                 <tr>
                   <td>
-                    <div className="flex items-center">
-                      <span className="material-symbols-outlined">
+                    <div className="flex items-center pr-2">
+                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                         water_drop
                       </span>
                       Wassserverbrauch
                     </div>
                   </td>
-                  <td>150 Liter</td>
+                  <td>150l</td>
                 </tr>
               </table>
             </Card>

@@ -10,7 +10,7 @@ export default function Curves({ children }: { children?: ReactNode }) {
           <div className="px-2 lg:mx-16 xl:mx-48">{children}</div>
           <BottomCurve />
         </div>
-        <div className="bg-transparent-green h-16 w-full"></div>
+        <div className="bg-transparent-green h-16 w-full text-white text-center pt-4"></div>
       </div>
     </>
   );

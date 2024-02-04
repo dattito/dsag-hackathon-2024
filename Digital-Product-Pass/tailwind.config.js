@@ -14,7 +14,7 @@ export default {
       colors: {
         "transparent-green": {
           DEFAULT: "var(--transparent-green-color)",
-          dark: "#1B4332",
+          dark: "#40916C",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
