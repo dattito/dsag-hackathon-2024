@@ -4,7 +4,7 @@ import "./curves.css";
 export default function Curves({ children }: { children?: ReactNode }) {
   return (
     <>
-      <div className="card w-full min-h-screen bg-white">
+      <div className="w-full min-h-screen bg-white">
         <Header />
         <div className="min-h-[calc(100vh-8.02rem)] bg-white relative py-16">
           <div className="px-2 lg:mx-16 xl:mx-48">{children}</div>
