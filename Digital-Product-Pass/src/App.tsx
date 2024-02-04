@@ -20,13 +20,13 @@ function App() {
             </Card>
             <Card
               title="Wasserflasche CyberDrink"
-              className="row-span-2 h-[40rem]"
+              className="row-span-2 h-[36rem]"
             >
               <div className="flex flex-col items-center">
                 <Product />
               </div>
             </Card>
-            <Card title="Details" className="h-[19.5rem]">
+            <Card title="Details" className="min-h-[16rem] xl:h-full">
               <EcoDetails />
             </Card>
             <Card duration={0.5} title="Lieferkette">

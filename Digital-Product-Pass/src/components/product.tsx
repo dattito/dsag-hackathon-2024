@@ -2,7 +2,7 @@ export default function Product() {
   return (
     <div className="relative">
       <img src="/bottle.png" className="max-h-[400px]" />
-      <div className="flex flex-col items-center mt-4 absolute bottom-[-9rem] left-1/2 -translate-x-1/2">
+      <div className="flex flex-col items-center mt-4 absolute bottom-[-4.5rem] left-1/2 -translate-x-1/2">
         <table className="mx-8">
           <tr>
             <td className="pr-10">

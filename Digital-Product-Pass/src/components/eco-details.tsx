@@ -1,10 +1,10 @@
 export default function EcoDetails() {
   return (
-    <div className="flex flex-col items-center">
-      <table className="mx-4">
+    <div className="flex flex-col items-center justify-start h-full">
+      <table className="mx-2">
         <tr>
           <td className="pr-2">
-            <div className="flex items-center">
+            <div className="flex items-center my-1">
               <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                 airwave
               </span>
@@ -15,7 +15,7 @@ export default function EcoDetails() {
         </tr>
         <tr>
           <td>
-            <div className="flex items-center">
+            <div className="flex items-center my-1">
               <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                 co2
               </span>
@@ -26,7 +26,7 @@ export default function EcoDetails() {
         </tr>
         <tr>
           <td>
-            <div className="flex items-center pr-12">
+            <div className="flex items-center pr-12 my-1">
               <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                 water_drop
               </span>
@@ -37,7 +37,7 @@ export default function EcoDetails() {
         </tr>
         <tr>
           <td>
-            <div className="flex items-center pr-12">
+            <div className="flex items-center pr-12 my-1">
               <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                 route
               </span>
