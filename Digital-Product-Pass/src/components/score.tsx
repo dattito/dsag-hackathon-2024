@@ -36,15 +36,14 @@ const Score: React.FC<CO2ScoreProps> = ({ score, maxScore }) => {
           value={percentage}
           styles={buildStyles({
             // Customize the size, color, etc. here
-            pathColor: `var(--primary-color)`,
-            textColor: "var(--primary-color)",
+            pathColor: "var(--transparent-green-color)",
             trailColor: "#ffffff00",
             backgroundColor: "#ffffff00",
             // pathTransition: "stroke-dashoffset 0.5s ease-in-out 0s", // Smooth transition for the stroke
             pathTransitionDuration: 0,
           })}
         >
-          <p className="text-5xl text-primary">{progress}</p>
+          <p className="text-5xl text-transparent-green">{progress}</p>
           <p>von {maxScore}</p>
         </CircularProgressbarWithChildren>
       </div>

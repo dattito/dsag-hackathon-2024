@@ -1,0 +1,90 @@
+.trip {
+  position: relative;
+}
+
+.trip .bar {
+  width: 2px;
+  border-right: 1px solid #cacaca;
+  position: absolute;
+  top: 40px;
+  bottom: 38px;
+  left: 26.5px;
+  z-index: 0;
+}
+
+.trip_entry {
+  z-index: 2;
+  padding: 8px 0 8px 16px;
+  background-color: var(--bs-tertiary-bg);
+}
+
+.trip_entry:nth-child(even),
+.trip_entry.ind {
+  z-index: 2;
+  padding: 8px 0 8px 16px;
+  background-color: unset;
+}
+
+.trip_entry .symbol {
+  margin: 0 20px 0 0;
+  z-index: 1;
+}
+
+.trip_entry .symbol .symbol1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: white solid 2px;
+  background-color: white;
+}
+
+.trip_entry .symbol .symbol2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: var(--bs-primary) solid 2px;
+  background-color: white;
+}
+
+.trip_entry .symbol .symbol3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: white solid 6px;
+  background-color: var(--bs-primary);
+}
+
+.trip_entry .symbol .material-symbols-rounded {
+  font-size: 23px;
+  margin-top: 7px;
+  margin-left: 0.5px;
+}
+
+.trip_entry .details .title {
+  font-weight: 900;
+}
+
+.trip_entry .details .date {
+  font-size: 12px;
+}
+
+.trip_entry .details .category {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.trip_entry .details .description {
+  font-size: 12px;
+  background-color: var(--bs-secondary-bg);
+  margin-top: 12px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.trip_entry .actions {
+  display: none;
+}
+
+.trip_entry:hover .actions {
+  display: block;
+}
