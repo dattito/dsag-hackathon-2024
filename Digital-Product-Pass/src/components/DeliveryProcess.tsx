@@ -13,7 +13,7 @@ interface DeliveryProcessProps {
 const DeliveryProcess: React.FC<DeliveryProcessProps> = ({ steps }) => {
   return (
     <div>
-      <h2>Delivery Process</h2>
+      <h2>Lieferkette</h2>
       <ul>
         {steps.map((step, index) => (
           <li key={index}>{`${step.step}: ${step.co2Value} CO2`}</li>

@@ -8,7 +8,7 @@ import Water from "./assets/WaterBottle.webp"
 
 const App: React.FC = () => {
   // Example data
-  const articleTitle = 'Water Bottle';
+  const articleTitle = 'Digitaler Produktpass';
   const articleImageUrl = Water;
   const co2Score = 81;
   const maxScore = 100;
@@ -19,11 +19,11 @@ const App: React.FC = () => {
   ];
 
   return (
-    <div className="App">
+    <>
       <ArticleHeader title={articleTitle} imageUrl={articleImageUrl} />
       <CO2Score score={co2Score} maxScore={maxScore}/>
       <DeliveryProcess steps={deliverySteps} />
-    </div>
+    </>
   );
 }
 
