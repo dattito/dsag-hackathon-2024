@@ -1,5 +1,6 @@
 import Card from "./components/card";
 import Curves from "./components/curves";
+import EcoDetails from "./components/eco-details";
 import FAQ from "./components/faq";
 import Product from "./components/product";
 import Score from "./components/score";
@@ -23,58 +24,12 @@ function App() {
             >
               <div className="flex flex-col items-center">
                 <Product />
-                <div className="mt-4">
-                  <table>
-                    <tr>
-                      <td>Seriennummer:</td>
-                      <td>45678998456733</td>
-                    </tr>
-                    <tr>
-                      <td>Farbe:</td>
-                      <td>Blau</td>
-                    </tr>
-                  </table>
-                </div>
               </div>
             </Card>
             <Card title="Details" className="h-[19.5rem]">
-              <table className="mx-8">
-                <tr>
-                  <td className="pr-2">
-                    <div className="flex items-center">
-                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
-                        airwave
-                      </span>
-                      Treibhausgase
-                    </div>
-                  </td>
-                  <td>0,2kg</td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="flex items-center">
-                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
-                        co2
-                      </span>
-                      CO₂-Äquivalent
-                    </div>
-                  </td>
-                  <td>0,2kg</td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="flex items-center pr-2">
-                      <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
-                        water_drop
-                      </span>
-                      Wassserverbrauch
-                    </div>
-                  </td>
-                  <td>150l</td>
-                </tr>
-              </table>
+              <EcoDetails />
             </Card>
-            <Card duration={0.5} title="Lieferkette" className="h-[30rem]">
+            <Card duration={0.5} title="Lieferkette">
               <SupplyChain />
             </Card>
             <Card duration={0.5} title="End of Life">
