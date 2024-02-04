@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "~bootstrap/scss/bootstrap";
-
 html,
 body,
-#root {
+#root,
+:root {
   width: 100%;
   min-height: 100vh;
+  font-family: Outfit;
+
+  --primary-color: #52b788;
 }

@@ -15,7 +15,7 @@
 }
 
 .custom-shape-divider-top-1707035769 .shape-fill {
-  fill: #86efac;
+  fill: --tailwind;
 }
 
 .custom-shape-divider-bottom-1707033920 {
@@ -36,5 +36,5 @@
 }
 
 .custom-shape-divider-bottom-1707033920 .shape-fill {
-  fill: #86efac;
+  fill: var(--primary-color);
 }
