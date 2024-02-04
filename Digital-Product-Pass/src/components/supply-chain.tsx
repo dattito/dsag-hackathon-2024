@@ -11,11 +11,7 @@ export default function SupplyChain() {
         <Transport title="LKW" logo="local_shipping" co2e="60-150" />
         <Place title="Stuttgart" description="Deutschland" logo="adjust" />
         <Transport title="LKW" logo="local_shipping" co2e="60-150" />
-        <Place
-          title="Mannheim"
-          description="Deutschland (Verkauf)"
-          logo="storefront"
-        />
+        <Place title="Mannheim" description="Deutschland" logo="adjust" />
         <div className="bar"></div>
       </div>
 
