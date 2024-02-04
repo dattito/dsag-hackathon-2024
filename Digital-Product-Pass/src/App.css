@@ -1,0 +1,54 @@
+/* CO2Score.css */
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+.co2-score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .co2-score-gauge {
+    width: 50%; /* This will be 50% of its container width */
+    max-width: 250px; /* Maximum width for large screens */
+    margin: 20px 0;
+  }
+  
+  .co2-score-stats, .co2-score-icons {
+    width: 100%; /* Use the full width of the container */
+    padding: 0 15px;
+  }
+  
+  .co2-score-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .co2-score-icons > div {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .co2-score-gauge {
+      width: 70%; /* Increase width percentage for smaller screens */
+    }
+  
+    .co2-score-icons {
+      flex-direction: column; /* Stack icons on top of each other */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .co2-score-gauge {
+      width: 90%; /* Further increase width percentage for very small screens */
+    }
+  }
