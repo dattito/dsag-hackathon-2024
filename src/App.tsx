@@ -1,11 +1,14 @@
-import "./App.css";
+import Curves from "./components/curves";
+import FillingCircle from "./components/filling-circle";
 
 function App() {
-  return <>
-    <div className="card">
-      <h1>Test</h1>
-    </div>
-  </>;
+  return (
+    <>
+      <Curves>
+        <FillingCircle />
+      </Curves>
+    </>
+  );
 }
 
 export default App;
