@@ -13,8 +13,7 @@ const Header: React.FC<HeaderProps> = ({ currentState, totalStates, onNextStep }
             <nav className="navbar navbar-expand-lg bg-body-tertiary align-items-center mb-3">
                 <div className="container-fluid">
                     <div className="d-flex">
-                        <i>Logo</i>
-                        <span className="fs-3 fw-bold ms-5 mt-1">Sustainability Dashboard</span>
+                        <img className="ms-2 mt-1 logo" src="logo-full-green.svg" alt="TransparentGreen" />
                     </div>
                 </div>
             </nav>
