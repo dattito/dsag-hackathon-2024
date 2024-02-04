@@ -44,7 +44,7 @@ const Score: React.FC<CO2ScoreProps> = ({ score, maxScore }) => {
           })}
         >
           <p className="text-5xl text-transparent-green">{progress}</p>
-          <p>von {maxScore}</p>
+          <p className="text-gray-700">von {maxScore}</p>
         </CircularProgressbarWithChildren>
       </div>
     </div>

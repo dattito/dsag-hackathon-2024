@@ -26,7 +26,7 @@ export default function EcoDetails() {
         </tr>
         <tr>
           <td>
-            <div className="flex items-center pr-2">
+            <div className="flex items-center pr-12">
               <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
                 water_drop
               </span>
