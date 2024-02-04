@@ -30,7 +30,7 @@ export default function FAQ() {
           Warum ist Flaschenrecycling umweltfreundlicher als Wegwerfen?
         </AccordionTrigger>
         <AccordionContent>
-          Flaschenrecycling spart Energie und Rohstoffe und reduziert
+          Flaschenrecycling spart Energie, Rohstoffe und reduziert
           Umweltbelastungen.
         </AccordionContent>
       </AccordionItem>

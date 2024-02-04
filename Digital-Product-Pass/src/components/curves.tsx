@@ -6,7 +6,7 @@ export default function Curves({ children }: { children?: ReactNode }) {
     <>
       <div className="w-full min-h-screen bg-white">
         <Header />
-        <div className="min-h-[calc(100vh-8.02rem)] bg-white relative py-16">
+        <div className="min-h-[calc(100vh-8.02rem)] bg-white relative pb-16">
           <div className="px-2 lg:mx-16 xl:mx-48">{children}</div>
           <BottomCurve />
         </div>
@@ -18,7 +18,7 @@ export default function Curves({ children }: { children?: ReactNode }) {
 
 function Header() {
   return (
-    <div className="font-extrabold text-center text-3xl m-4 text-primary flex flex-col items-center lg:items-start">
+    <div className="font-extrabold text-center text-3xl mt-4 mb-1 mx-8 text-primary flex flex-col items-center lg:items-start">
       <img src="/logo-full-green.svg" className="h-16" />
     </div>
   );

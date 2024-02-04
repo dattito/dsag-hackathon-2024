@@ -1,7 +1,7 @@
 export default function EcoDetails() {
   return (
     <div className="flex flex-col items-center">
-      <table className="mx-8">
+      <table className="mx-4">
         <tr>
           <td className="pr-2">
             <div className="flex items-center">
@@ -11,7 +11,7 @@ export default function EcoDetails() {
               Treibhausgase
             </div>
           </td>
-          <td className="font-bold">0,2kg</td>
+          <td className="font-bold">0,2 kg</td>
         </tr>
         <tr>
           <td>
@@ -22,7 +22,7 @@ export default function EcoDetails() {
               CO₂-Äquivalent
             </div>
           </td>
-          <td className="font-bold">0,2kg</td>
+          <td className="font-bold">0,2 kg</td>
         </tr>
         <tr>
           <td>
@@ -33,7 +33,18 @@ export default function EcoDetails() {
               Wassserverbrauch
             </div>
           </td>
-          <td className="font-bold">150l</td>
+          <td className="font-bold">150 l</td>
+        </tr>
+        <tr>
+          <td>
+            <div className="flex items-center pr-12">
+              <span className="material-symbols-outlined pr-2 text-transparent-green-dark">
+                route
+              </span>
+              Zurückgelegte Distanz
+            </div>
+          </td>
+          <td className="font-bold">25.300 km</td>
         </tr>
       </table>
     </div>
