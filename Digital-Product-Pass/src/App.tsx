@@ -4,6 +4,7 @@ import FAQ from "./components/faq";
 import Product from "./components/product";
 import Score from "./components/score";
 import SupplyChain from "./components/supply-chain";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
           </div>
         </div>
       </Curves>
+      <Analytics />
     </>
   );
 }
