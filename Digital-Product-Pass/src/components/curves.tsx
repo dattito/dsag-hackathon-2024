@@ -18,8 +18,8 @@ export default function Curves({ children }: { children?: ReactNode }) {
 
 function Header() {
   return (
-    <div className="font-extrabold text-center text-3xl m-4 text-primary">
-      <img src="/logo-full-green.svg" className="h-16 text-center" />
+    <div className="font-extrabold text-center text-3xl m-4 text-primary flex flex-col items-center lg:items-start">
+      <img src="/logo-full-green.svg" className="h-16" />
     </div>
   );
 }
