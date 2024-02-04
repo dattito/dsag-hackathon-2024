@@ -10,9 +10,8 @@ export default function Curves({ children }: { children?: ReactNode }) {
           <div className="px-2 lg:mx-16 xl:mx-32">{children}</div>
           <BottomCurve />
         </div>
-        <div className="bg-transparent-green h-16 w-full text-white text-center pt-4 shadow-lg">
-          Sie wollen während den DSAG Technologietagen mehr von uns hören? Dann
-          stimmen sie gleich für uns ab!
+        <div className="bg-transparent-green h-16 w-full text-white text-sm p-4 text-right shadow-lg">
+          Diese Daten sind Beispieldaten.
         </div>
       </div>
     </>
