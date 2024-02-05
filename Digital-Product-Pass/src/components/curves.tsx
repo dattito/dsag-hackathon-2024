@@ -4,13 +4,15 @@ import "./curves.css";
 export default function Curves({ children }: { children?: ReactNode }) {
   return (
     <>
-      <div className="card w-full min-h-screen bg-white">
+      <div className="w-full min-h-screen bg-white">
         <Header />
-        <div className="min-h-[calc(100vh-8.02rem)] bg-white relative py-16">
-          <div className="px-2 lg:mx-16 xl:mx-48">{children}</div>
+        <div className="min-h-[calc(100vh-8.02rem)] bg-white relative pb-16">
+          <div className="px-2 lg:mx-16 xl:mx-32">{children}</div>
           <BottomCurve />
         </div>
-        <div className="bg-primary h-16 w-full"></div>
+        <div className="bg-transparent-green h-16 w-full text-white text-sm p-4 text-right shadow-lg">
+          Diese Daten sind Beispieldaten.
+        </div>
       </div>
     </>
   );
@@ -18,8 +20,8 @@ export default function Curves({ children }: { children?: ReactNode }) {
 
 function Header() {
   return (
-    <div className="font-extrabold text-center text-3xl m-4 text-primary">
-      <img src="/logo-full-green.svg" className="h-16 text-center" />
+    <div className="font-extrabold text-center text-3xl mt-4 mb-1 mx-8 text-primary flex flex-col items-center lg:items-start">
+      <img src="/logo-full-green.svg" className="h-16" />
     </div>
   );
 }
