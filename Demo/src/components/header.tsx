@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ currentState, totalStates, onNextStep }
                     </div>
                 </div>
             </nav>
-            <div className="d-flex justify-content-between align-items-center mb-4">
+            <div className="d-flex justify-content-between align-items-center mb-4" style={{padding : '0 22px'}}>
                 <div className="d-flex">
                     {/* Render the remaining steps */}
                     {Array.from({ length: totalStates }, (_, index) => (

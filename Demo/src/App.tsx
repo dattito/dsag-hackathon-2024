@@ -17,11 +17,13 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header currentState={currentStep} totalStates={5} onNextStep={increaseStep} />
-      {currentStep === 1 && <Step1 />}
-      {currentStep === 2 && <Step2 />}
-      {currentStep === 3 && <Step3 onNextStep={increaseStep} />}
-      {currentStep === 4 && <Step4 />}
-      {currentStep === 5 && <Step5 />}
+      <div className='Bodycontainer'>
+        {currentStep === 1 && <Step1 />}
+        {currentStep === 2 && <Step2 />}
+        {currentStep === 3 && <Step3 onNextStep={increaseStep} />}
+        {currentStep === 4 && <Step4 />}
+        {currentStep === 5 && <Step5 />}
+      </div>
     </div>
   );
 };
