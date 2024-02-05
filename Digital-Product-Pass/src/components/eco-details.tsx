@@ -11,7 +11,7 @@ export default function EcoDetails() {
               Treibhausgase
             </div>
           </td>
-          <td className="font-bold">0,2 kg</td>
+          <td className="font-bold">119,2 g</td>
         </tr>
         <tr>
           <td>
@@ -22,7 +22,7 @@ export default function EcoDetails() {
               CO₂-Äquivalent
             </div>
           </td>
-          <td className="font-bold">0,2 kg</td>
+          <td className="font-bold">131,5 g</td>
         </tr>
         <tr>
           <td>
@@ -33,7 +33,7 @@ export default function EcoDetails() {
               Wassserverbrauch
             </div>
           </td>
-          <td className="font-bold">150 l</td>
+          <td className="font-bold">30 l</td>
         </tr>
         <tr>
           <td>
